@@ -35,5 +35,44 @@ nav.top-bar{
 }
 .footer{
   background-color: #1399bd;
-  padding: 20px;
+  padding: 15px;
+}
+#info h3, #edu h3, #pro h3, #award h3, #it h3, #comment h3{
+  border-bottom: solid 2px #1399bd;
+}
+#info, #edu, #pro, #award, #it, #comment{
+  margin-bottom: 50px;
+}
+.large-8 ul{
+  margin-left: 22px;
+}
+.resume .content .row .large-3{
+  position: fixed;
+  width: 19%;
+}
+.muted{
+  margin-left: 5px;
+  color: #828282;
+}
+.block{
+  margin-bottom: 35px;
+}
+.second{
+  margin-left: 10px;
+}
+.second h5{
+  color: #262626;
+}
+.mainwork{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.endlink{
+  color: black;
+}
+.footer p{
+  margin-bottom: 0;
+}
+.desc div{
+  margin-bottom: 10px;
 }
