@@ -5,12 +5,13 @@ nav.top-bar{
   font-weight: 500;
   font-size: 15px;
 }
-.top-bar .top-bar-section .right a{
+.top-bar .top-bar-section .right li a{
   font-weight: bold;
   font-size: 16px;
   background-color: #1399bd;
+  color: white;
 }
-.top-bar .top-bar-section .right a:hover{
+.top-bar .top-bar-section .right li a:hover{
   background-color: #1399bd;
   color: #dbdbdb;
 }
@@ -36,6 +37,10 @@ nav.top-bar{
 .footer{
   background-color: #1399bd;
   padding: 15px;
+}
+.footer a:hover{
+  color: black;
+  text-decoration: underline;
 }
 #info h3, #edu h3, #pro h3, #award h3, #it h3, #comment h3{
   border-bottom: solid 2px #1399bd;
